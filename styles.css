@@ -1,10 +1,12 @@
 
 .body{
-
+display: flex;
+flex-direction: column;
 }
 
 
 .one{
+    flex: auto;
     display: flex;
     flex-direction: column;
     background-color: #1F2937 ;
@@ -41,6 +43,10 @@ a{
     padding-top: 70px;
 }
 
+img{
+    flex: auto;
+}
+
 #sign-up{
     color: white;
     background-color: #3882F6;
@@ -51,7 +57,7 @@ a{
 
 
 .two{
-
+    flex: auto;
 }
 
 .subheading{
@@ -93,6 +99,7 @@ a{
 }
 
 .three{
+    flex: auto;
     background-color: #E5E7EB;
 }
 
@@ -112,7 +119,7 @@ a{
 }
 
 .four{
-
+    flex: auto;
 }
 
 .blue-box{
